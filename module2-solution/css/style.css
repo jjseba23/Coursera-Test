@@ -1,0 +1,97 @@
+
+* {
+	font-family: "Times New Roman", Times, serif;
+
+	box-sizing: border-box;
+}
+
+@media (min-width: 992px)
+{
+	.cl-lr-4 {
+		
+		float:left;
+		width: 30%;
+	}
+	   
+}
+
+
+@media (min-width:768px) and (max-width: 991px)
+{
+
+	
+	.cl-md-6 {
+
+		float:left;
+		width: 45%;
+	}
+	
+
+
+	.cl-md-12 {
+
+		float:left;
+		width: 90%;
+	}
+
+
+}
+
+
+.Module-Title{
+	text-align: center;
+	font-size: 175%;
+}
+
+	section {
+		background-color: grey;
+		position: relative;
+		border: 1px solid black;
+		margin:4px;
+	}
+
+	.section-content{
+        padding-top: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+	}
+
+	.section1-title{
+
+		width: 35%;
+		position: absolute;
+		right: 0px;
+		top:0px;
+		background-color: red;
+		border: 1px solid black;
+		font-size: 125%;
+		text-align: center;
+		margin-top: 0px;
+	}
+
+    .section2-title{
+
+		width: 35%;
+    	position: absolute;
+		right: 0px;
+		top:0px;
+		background-color: green;
+		border: 1px solid black;
+		font-size: 125%;
+		text-align: center;
+		margin-top: 0px;
+	}
+
+	.section3-title{
+		width: 35%;
+		position: absolute;
+		right: 0px;
+		top:0px;
+		background-color: yellow;
+		border: 1px solid black;
+		font-size: 125%;
+		text-align: center;
+		margin-top: 0px;
+	}
+
+	
